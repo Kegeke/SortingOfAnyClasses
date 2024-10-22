@@ -15,8 +15,6 @@ public class Main {
         for (var s : books) {
             System.out.println(s);
         }
-
-
     }
 
     private static List<Book> initBooks() {

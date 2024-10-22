@@ -9,7 +9,7 @@ public class Korneplod implements Comparable<Korneplod> {
 
     }
 
-    public Korneplod(KorneplodBuilder korneplodBuilder) {
+    private Korneplod(KorneplodBuilder korneplodBuilder) {
         this.type = korneplodBuilder.type;
         this.weight = korneplodBuilder.weight;
         this.color = korneplodBuilder.color;
@@ -32,15 +32,37 @@ public class Korneplod implements Comparable<Korneplod> {
         return 0;
     }
 
-//    @Override
-//    public String toString() {
-//        return String.format("Тип корнеплода: %s; Вес: %d; Цвет: %s",
-//                type, weight, color);
-//    }
+    @Override
+    public String toString() {
+        return String.format("Тип корнеплода: %s; Вес: %d; Цвет: %s",
+                type, weight, color);
+    }
 
     public static class KorneplodBuilder {
         private Type type;
         private int weight;
         private String color;
+
+        public KorneplodBuilder() {
+        }
+
+        public KorneplodBuilder setType(Type type) {
+            this.type = type;
+            return this;
+        }
+
+        public KorneplodBuilder setWeight(int weight) {
+            this.weight = weight;
+            return this;
+        }
+
+        public KorneplodBuilder setColor(String color) {
+            this.color = color;
+            return this;
+        }
+
+        public Korneplod build() {
+            return new Korneplod(this);
+        }
     }
 }

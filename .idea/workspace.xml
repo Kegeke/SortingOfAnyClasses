@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d7055cc-e115-473b-89f1-11c34925ab71" name="Changes" comment="three_classes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9d7055cc-e115-473b-89f1-11c34925ab71" name="Changes" comment="three_classes fix1">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alex_maven/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex_maven/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex_maven/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex_maven/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex_maven/model/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex_maven/model/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex_maven/model/RootVegetable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex_maven/model/Korneplod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex_maven/model/Korneplod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex_maven/model/Korneplod.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,15 +36,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "three__classes",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;three__classes&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.alex_maven.Main" />
@@ -93,13 +90,22 @@
       <option name="project" value="LOCAL" />
       <updated>1729599762797</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="three_classes fix1">
+      <option name="closed" value="true" />
+      <created>1729612870797</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729612870797</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="Book" />
     <MESSAGE value="three_classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="three_classes" />
+    <MESSAGE value="three_classes fix1" />
+    <option name="LAST_COMMIT_MESSAGE" value="three_classes fix1" />
   </component>
 </project>
