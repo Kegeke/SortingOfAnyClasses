@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d7055cc-e115-473b-89f1-11c34925ab71" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alex_maven/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alex_maven/model/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alex_maven/model/RootVegetable.java" afterDir="false" />
+    <list default="true" id="9d7055cc-e115-473b-89f1-11c34925ab71" name="Changes" comment="three_classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alex_maven/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex_maven/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex_maven/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex_maven/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex_maven/model/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex_maven/model/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex_maven/model/RootVegetable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex_maven/model/Korneplod.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,8 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "three__classes",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RunManager">
@@ -84,11 +85,21 @@
       <option name="project" value="LOCAL" />
       <updated>1729572241449</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="three_classes">
+      <option name="closed" value="true" />
+      <created>1729599762797</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729599762797</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="Book" />
+    <MESSAGE value="three_classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="three_classes" />
   </component>
 </project>

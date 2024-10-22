@@ -3,62 +3,62 @@ package com.alex_maven.model;
 import java.util.Comparator;
 
 public class Book implements Comparable<Book> {
-    private final String authorName;
-    private final String bookName;
-    private final int countPages;
+    private final String book;
+    private final String author;
+    private final int pages;
 
     private Book(BookBuilder builder) {
-        this.authorName = builder.authorName;
-        this.bookName = builder.bookName;
-        this.countPages = builder.countPages;
+        this.book = builder.book;
+        this.author = builder.author;
+        this.pages = builder.pages;
     }
 
-    public String getAuthorName() {
-        return authorName;
+    public String getBook() {
+        return book;
     }
 
-    public String getBookName() {
-        return bookName;
+    public String getAuthor() {
+        return author;
     }
 
-    public int getCountPages() {
-        return countPages;
+    public int getPages() {
+        return pages;
     }
 
     @Override
     public int compareTo(Book o) {
-        return Comparator.comparingInt(Book::getCountPages)
-                .thenComparing(Book::getAuthorName)
-                .thenComparing(Book::getCountPages)
+        return Comparator.comparing(Book::getBook)
+                .thenComparing(Book::getAuthor)
+                .thenComparingInt(Book::getPages)
                 .compare(this, o);
     }
 
     @Override
     public String toString() {
-        return String.format("Книга: %s; Автор: %s; Страницы: %d\n",
-                bookName, authorName, countPages);
+        return String.format("Книга: %s; Автор: %s; Страницы: %d",
+                book, author, pages);
     }
 
     public static class BookBuilder {
-        private String authorName;
-        private String bookName;
-        private int countPages;
+        private String book;
+        private String author;
+        private int pages;
 
         public BookBuilder() {
         }
 
-        public BookBuilder setAuthorName(String authorName) {
-            this.authorName = authorName;
+        public BookBuilder setBook(String book) {
+            this.book = book;
             return this;
         }
 
-        public BookBuilder setBookName(String bookName) {
-            this.bookName = bookName;
+        public BookBuilder setAuthor(String author) {
+            this.author = author;
             return this;
         }
 
-        public BookBuilder setCountPages(int countPages) {
-            this.countPages = countPages;
+        public BookBuilder setPages(int pages) {
+            this.pages = pages;
             return this;
         }
 
